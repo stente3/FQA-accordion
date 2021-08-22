@@ -1,0 +1,19 @@
+/* responsive web desing */
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px; /* 1rem = 10px */
+	font-family: $mainfont;
+	background-image: linear-gradient(to top, $soft-blue, $soft-violet);
+	background-repeat: no-repeat;
+	height: 100vh;
+	min-height: 90rem;
+}
+/* model box */
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}

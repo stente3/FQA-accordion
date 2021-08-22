@@ -1,0 +1,67 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+.hero__card {
+	background-color: aliceblue;
+	border-radius: 20px;
+	width: 90%;
+	max-width: 50rem;
+	height: 75%;
+	min-height: 53rem;
+	max-height: 80rem;
+}
+.container__images {
+	height: 20%;
+	position: relative;
+}
+.hero__image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0rem auto;
+}
+.image--box {
+	z-index: 1;
+	top: -29px;
+	right: 133px;
+}
+.image--pattern {
+	top: -112px;
+}
+.image--woman {
+	top: -90px;
+}
+.title {
+	text-align: center;
+	font-weight: $bold;
+}
+.container__faq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0rem auto;
+	max-width: 90%;
+}
+.title__faq {
+	font-size: 2.1rem;
+	color: $vark-grayish-blue;
+	font-weight: $regular;
+}
+.paragraph__faq {
+	padding: 0rem;
+	margin: 0rem;
+	height: 0rem;
+	overflow: hidden;
+}
+.separator {
+	background-color: $light-grayish-blue;
+	width: 90%;
+	padding: 0.1rem 2rem;
+	margin: 0rem auto;
+}
