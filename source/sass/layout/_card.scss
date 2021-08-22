@@ -39,29 +39,51 @@
 }
 .title {
 	text-align: center;
+	font-size: 3.3rem;
 	font-weight: $bold;
 }
 .container__faq {
+	display: grid;
+	grid-template-columns: 95% 5%;
+	grid-template-rows: auto;
+	width: 90%;
+	margin: 2.3rem auto;
+}
+.heading {
+	margin: 0rem;
+	font-size: 1.9rem;
+	font-weight: $regular;
+	color: $very-dark-grayish-blue;
+}
+.container__arrow {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0rem auto;
-	max-width: 90%;
 }
-.title__faq {
-	font-size: 2.1rem;
-	color: $vark-grayish-blue;
-	font-weight: $regular;
+.arrow {
+	width: 11px;
 }
 .paragraph__faq {
-	padding: 0rem;
-	margin: 0rem;
+	font-size: 1.69rem;
+	color: $vark-grayish-blue;
 	height: 0rem;
 	overflow: hidden;
+	margin: 0rem auto;
 }
 .separator {
-	background-color: $light-grayish-blue;
-	width: 90%;
-	padding: 0.1rem 2rem;
 	margin: 0rem auto;
+	width: 90%;
+	padding: 0.09rem 2rem;
+	background-color: $light-grayish-blue;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 35rem;
+}
+.active {
+	height: auto;
+	margin: 2rem auto 0rem auto;
 }
