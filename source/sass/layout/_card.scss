@@ -62,6 +62,7 @@
 }
 .arrow {
 	width: 11px;
+	transition: all, 0.1s;
 }
 .paragraph__faq {
 	font-size: 1.69rem;
@@ -86,6 +87,10 @@
 .active {
 	height: auto;
 	margin: 2rem auto 0rem auto;
+}
+.active__arrow {
+	transform: rotatex(180deg);
+	transition: all, 0.4s;
 }
 .heading {
 	cursor: pointer;
