@@ -108,6 +108,9 @@
 	height: auto;
 	margin: 2rem auto 0rem auto;
 }
+.active__heading {
+	font-weight: $bold;
+}
 .active__arrow {
 	transform: rotatex(180deg);
 	transition: all, 0.4s;
