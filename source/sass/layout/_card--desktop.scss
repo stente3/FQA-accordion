@@ -1,0 +1,52 @@
+@media (min-width: 1440px) {
+	.hero__card {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 20% 80%;
+		width: 1000px;
+		margin-top: 1rem;
+		min-height: auto;
+		height: 60rem;
+		max-height: 80rem;
+		max-width: none;
+		overflow: hidden;
+	}
+	.title {
+		text-align: center;
+		font-size: 4.3rem;
+		font-weight: 700;
+		margin: 20% 75% 0% 0%;
+	}
+
+	.container__images {
+		grid-column: 1/2;
+		grid-row: 1/3;
+		height: 100%;
+	}
+	.image--box {
+		top: 115px;
+		left: -820px;
+		bottom: 10px;
+		width: 210px;
+		margin: auto;
+	}
+	.image--pattern {
+		top: 30px;
+		width: 580px;
+		left: -120px;
+	}
+	.image--woman {
+		top: 70px;
+		width: 580px;
+		left: -120px;
+	}
+	.d-none {
+		display: block;
+	}
+	.image--box--container {
+		display: none;
+	}
+	body {
+		min-height: auto;
+	}
+}

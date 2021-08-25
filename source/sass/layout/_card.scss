@@ -10,9 +10,15 @@
 	border-radius: 20px;
 	width: 90%;
 	max-width: 50rem;
-	height: 75%;
+	height: 77%;
 	min-height: 53rem;
 	max-height: 80rem;
+}
+@media (max-width: 403px) {
+	.hero__card {
+		height: 85%;
+		margin-top: 5rem;
+	}
 }
 .container__images {
 	height: 20%;
@@ -28,14 +34,28 @@
 }
 .image--box {
 	z-index: 1;
-	top: -29px;
-	right: 133px;
+	top: -31px;
+	right: 166px;
+	width: 105px;
 }
 .image--pattern {
-	top: -112px;
+	top: -122px;
+	width: 260px;
 }
 .image--woman {
-	top: -90px;
+	top: -100px;
+	width: 260px;
+}
+@media (max-width: 403px) {
+	.image--box {
+		width: 98px;
+	}
+	.image--pattern {
+		width: 240px;
+	}
+	.image--woman {
+		width: 240px;
+	}
 }
 .title {
 	text-align: center;
@@ -94,4 +114,7 @@
 }
 .heading {
 	cursor: pointer;
+}
+.d-none {
+	display: none;
 }
