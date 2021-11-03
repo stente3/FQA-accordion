@@ -92,7 +92,7 @@ You can find this and many more front end challenges by visiting their website h
 
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/stente3/Sunnyside-agency/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/stente3/FQA-accordion/blob/main/LICENSE) for more information.
 
 
 ## Contact
